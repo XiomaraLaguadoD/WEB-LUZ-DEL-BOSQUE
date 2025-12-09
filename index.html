@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luz del Bosque - Videogame</title>
+
+    <!-- Aquí enlazamos el archivo de estilos -->
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    <!-- 1. PANTALLA DE BIENVENIDA -->
+    <header id="welcome">
+        <div class="overlay">
+            <h1 class="game-title">Luz del Bosque</h1>
+            <p class="game-subtitle">Una Aventura Del Bosque Magico en 2D</p>
+        </div>
+    </header>
+
+    <!-- 2. LOGO E IDENTIDAD VISUAL -->
+    <section id="identity">
+        <div class="section-container">
+            <h2>Identidad del Juego</h2>
+            <div class="identity-content">
+                <!-- Logo del juego -->
+                <div class="identity-logo">
+                    <img src="assets/images/logo.png" alt="Luz del Bosque Logo">
+                </div>
+
+                <!-- Paleta de colores -->
+                <div class="identity-colors">
+                    <h3>Paleta de Colores</h3>
+                    <div class="color-palette">
+                        <div class="color-box color1"></div>
+                        <div class="color-box color2"></div>
+                        <div class="color-box color3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. DESCRIPCIÓN DEL VIDEOJUEGO -->
+    <section id="game-description">
+        <div class="section-container">
+            <h2>Acerca del Juego</h2>
+            <p>
+                “Luz del Bosque” es una aventura de plataformas en 2D donde el jugador explora un bosque místico, esquivando enemigos, recolectando monedas mágicas y alcanzando el portal al final de cada nivel."
+            </p>
+            <ul class="game-details">
+                <li><strong>Género:</strong> Plataformas 2D, Aventura</li>
+                <li><strong>Objetivo principal:</strong> Llega al final de cada nivel conservando tus vidas.</li>
+                <li><strong>Mecánica clave:</strong> Correr, saltar, recoger monedas, evitar proyectiles.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- 4. PERSONAJES Y MUNDO NARRATIVO -->
+    <section id="characters">
+        <div class="section-container">
+            <h2>Personajes</h2>
+            <div class="character-grid">
+                <!-- Personaje principal -->
+                <article class="character-card">
+                    <img src="assets/images/protagonist.png" alt="Main Character">
+                    <h3>Explorador del bosque</h3>
+                    <p>
+                        Un joven y valiente explorador, guiado por la luz del bosque, busca el equilibrio y la armonía en un mundo lleno de peligro y misterio.
+                    </p>
+                </article>
+                <article class="character-card">
+                    <img src="assets/images/enemy1.png" alt="Enemy">
+                    <h3>Criatura de la sombra</h3>
+                    <p>Un guardián agresivo del bosque que ataca a cualquiera que entre en su territorio.</p>
+                </article>
+            
+            </div>
+        </div>
+    </section>
+
+    <section id="world">
+        <div class="section-container">
+            <h2>El Mundo</h2>
+            <p>
+                El juego se desarrolla en un bosque encantado, lleno de plataformas, trampas, enemigos y portales mágicos. Cada nivel representa una parte diferente del bosque con su propia dificultad y desafíos.
+            </p>
+        
+            <img class="world-map" src="assets/images/map.png" alt="World Map">
+        </div>
+    </section>
+
+    <!-- 5. DEMO JUGABLE -->
+    <section id="demo">
+        <div class="section-container">
+            <h2>Juega el Demo</h2>
+            <p>
+                Puedes jugar la versión demo de “Luz del Bosque” haciendo clic en el botón de abajo.Se puede descargar.
+            </p>
+            <a class="btn-main" href="https://drive.google.com/file/d/19ISmv4W_QF2d79khxMFgycII-Drm791X/view?usp=sharing" target="_blank">
+                Descarga el Demo
+            </a>
+        </div>
+    </section>
+
+    <!-- 8. ELEMENTOS MULTIMEDIA: VIDEO + GALERÍA -->
+    <section id="media">
+        <div class="section-container">
+            <h2>Media</h2>
+            <div class="video-container">
+                <iframe
+                    src="https://www.youtube.com/embed/QSQSZentYRA"
+                    title="Gameplay Luz del Bosque"
+                    frameborder="0"
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- Galería de imágenes -->
+            <div class="gallery">
+                <img src="assets/images/screenshot1.png" alt="Screenshot 1">
+                <img src="assets/images/screenshot2.png" alt="Screenshot 2">
+                <img src="assets/images/screenshot3.png" alt="Screenshot 3">
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. CRÉDITOS Y PROCESO DE DESARROLLO -->
+    <section id="credits">
+        <div class="section-container">
+            <h2>Créditos & Desarrollo</h2>
+
+            <div class="credits-flex">
+                <div class="credits-team">
+                    <h3>Team</h3>
+                    <ul>
+                        <li><strong>Diseño & programación del juegos:</strong> Anyelin Xiomara Laguado</li>
+                        <li><strong>Arte & Diseño Visual:</strong> Anyelin Xiomara Laguado</li>
+                        <li><strong>Music & Sound:</strong> Fuentes de audio usadas</li>
+                    </ul>
+                </div>
+
+                <div class="credits-timeline">
+                    <h3>Proceso de Desarrollo</h3>
+                    <p>
+                        El proyecto comenzó con un prototipo básico donde la mayor parte de la lógica era global y varios errores afectaban las colisiones, las transiciones de nivel y el HUD. Mediante un proceso iterativo, corregimos el sistema de vida y puntuación, estabilizamos el flujo de Game Over, añadimos la reaparición y reorganizamos las hojas de eventos de cada nivel.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+        <p>© 2025 Luz del Bosque – Proyecto Estudiantil
+        </p>
+    </footer>
+
+    <!-- Enlazamos el JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
